@@ -38,7 +38,8 @@ If you go to the main page at [https://cdeevfrr.github.io/simplehash/](https://c
 <body>
   <h4><a href="placeholder">Instructions</a></h4>
   <input id="i" placeholder="Type...">
-  <p id="o">0000</p>
+  <p id="o" style="user-select:all; -webkit-user-select:all;">0000</p>
+
 
   <script>
     i.oninput = async () => {
