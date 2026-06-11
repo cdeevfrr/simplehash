@@ -32,6 +32,7 @@ To prevent this, this site is dirt simiple. Anyone should be able to look at the
 
 If you go to the main page at [https://cdeevfrr.github.io/simplehash/](https://cdeevfrr.github.io/simplehash/) and open the website details (right click, then "inspect" in chrome), the element tree should look like the below. The most important thing is that there is only one `<script> </script>`, and its contents should be identical to what you see below; but if you see any discrepancies you don't understand, you should assume the site is not secure and don't put password1 into it.
 
+![
 ```
 <body>
   <h4><a href="placeholder">Instructions</a></h4>
@@ -46,6 +47,7 @@ If you go to the main page at [https://cdeevfrr.github.io/simplehash/](https://c
   </script>
 </body>
 ```
+](https://github.com/user-attachments/assets/183c719a-f48a-405b-b4b7-cc5b751248a2)
 
 
 # Development
