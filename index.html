@@ -1,0 +1,12 @@
+<body>
+  <h4><a href="placeholder">Instructions</a></h4>
+  <input id="i" placeholder="Type...">
+  <p id="o">0000</p>
+
+  <script>
+    i.oninput = async () => {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(i.value));
+      o.textContent = btoa(String.fromCharCode(...new Uint8Array(buf)));;
+    };
+  </script>
+</body>
