@@ -1,5 +1,7 @@
 # SimpleHash
 
+[Hash please!](https://cdeevfrr.github.io/simplehash/)
+
 This utility is designed to let you quickly and easily hash some text. It defaults to sha256 - less config means less fiddling to match hashes with another person.
 
 ## Expected use
